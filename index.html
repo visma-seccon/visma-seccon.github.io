@@ -10,7 +10,6 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Ubuntu:wght@300;400;700&family=Press+Start+2P&display=swap"
         rel="stylesheet">
 
-
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
     <meta charset="utf-8">
@@ -29,28 +28,13 @@
     <meta property="og:title" content="Visma SecCon">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.visma.com/seccon">
-    <meta property="og:description" content="Visma Security Conference - Staying secure in the pandemic">
-
-    <!--
-	<link rel="apple-touch-icon-precomposed" href="/favicon-152x152.png">
-    <link rel="apple-touch-icon-precomposed" href="/favicon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" href="/favicon-120x120.png">
-    <link rel="apple-touch-icon-precomposed" href="/favicon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" href="/favicon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" href="/favicon-57x57.png">
-    <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <meta name="theme-color" content="#9407CA">
-    -->
+    <meta property="og:description" content="Visma Security Conference - Staying secure in the pandemic">    
 </head>
 
 <body>
-
     <div class="bg" id="curved_bg"></div>
     <div class="bg" id="curved_bg_rev"></div>
     
-
     <div class="bg" id="cd_1"></div>
     <div class="bg" id="cd_2"></div>
     <div class="bg" id="cd_3"></div>
@@ -65,15 +49,14 @@
     <div class="bg" id="recs_3"></div>
 
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 shadow-sm2222">
-
         <img src="logo_small_blank_170x115.png" alt="Visma Security Conference logo" class="align-middle" >
         <img class="ml-5" src="Visma_Logo.png" alt="Visma logo" width="128" height="25">
 
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2" href="#"><span class="yellow">{ </span>About<span class="yellow"> }</span></a>
-            <a class="p-2" href="#"><span class="yellow">{ </span>Agenda<span class="yellow"> }</span></a>
-            <a class="p-2" href="#"><span class="yellow">{ </span>Speakers<span class="yellow"> }</span></a>
-            <a class="p-2" href="#"><span class="yellow">{ </span>Sign up<span class="yellow"> }</span></a>
+            <a class="p-2" href="#about"><span class="yellow">{ </span>About<span class="yellow"> }</span></a>
+            <a class="p-2" href="#agenda"><span class="yellow">{ </span>Agenda<span class="yellow"> }</span></a>
+            <a class="p-2" href="#speakers"><span class="yellow">{ </span>Speakers<span class="yellow"> }</span></a>
+            <a class="p-2" href="#attend"><span class="yellow">{ </span>Attend<span class="yellow"> }</span></a>
         </nav>
     </div>
 
@@ -95,22 +78,21 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="text-center mb-4">About SecCon</h1>
-                    <p class="thin text-center mt-5">
+                    <p class="thin mt-5">
                         We are happy to invite you to the second edition of Visma SecCon, Visma’s yearly security conference intended for our customers, our employees and everyone else interested in security. 
                         <br>
                         This year’s topic is how to stay secure during a pandemic and we will discuss various issues that surface in the wake of working remotely/in the wake of these special times. 
                         <br><br>
                         The purpose of the conference is to bring together eminent experts in the cyber security field, both from Visma and externally in order to increase the focus and awareness on security, a field in constant development. New risks and scam methods are always emerging alongside changes in society, and it’s fundamental to be up to date. 
                     </p>
-                    <p class="thin text-center mt-5">
+                    <p class="thin mt-5">
                         This year the conference will be digital and free for everyone to attend, accessible via YouTube Live Streaming!
                     </p>
-
                     <p class="text-center mt-5">
                         <a href="#attend" class="btn btn-secodary my-2">I want to attend</a>
                     </p>
@@ -121,7 +103,7 @@
     </section>
 
     <section>
-        <div class="container agenda">
+        <div class="container agenda" id="agenda">
             <h1 class="text-center mb-5">Agenda</h1>
             <div class="row">
                 <div class="col-md-4">
@@ -157,7 +139,7 @@
                         <br>
                         And shows you tools and techniques used by security professionals. So you too in a safe manner can attack your own organization to  identify weaknesses/ misconfigurations and vulnerabilities in your own internet facing assets.
                     </p>
-                    <p onclick="expand('#s1')">
+                    <p onclick="expand('#s1')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -171,9 +153,10 @@
                     <h2 class="mb-4 mt-4">Who Did It? A Game of Attribution</h2>
                     <p class="person"><a href="#oberg">Martin Öberg</a></p>
                     <p class="half-fade" id="s2">
-                        ??????????????????
+                        'Attribution' is simply the process of identifying the perpetrators of an attack, and it is notoriously hard to perform for cyber crime. But why is that? And is it still worth doing?
+In this talk I will go through some of the challenges and rewards of cyber attribution. I will also explain different investigative methods and techniques using unique behind-the-scenes examples from our own security investigations.
                     </p>
-                    <p onclick="expand('#s2')">
+                    <p onclick="expand('#s2')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -192,7 +175,7 @@
                         <br>
                         In this talk, Laura talks about modern privacy of normal human beings, and how issues such as stalking take a whole new form in the digital spaces.
                     </p>
-                    <p onclick="expand('#s3')">
+                    <p onclick="expand('#s3')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -210,7 +193,7 @@
                         <br>
                         At the end of this presentation, you will know more about hackers and how they can help you secure your assets.
                     </p>
-                    <p onclick="expand('#s4')">
+                    <p onclick="expand('#s4')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -231,7 +214,7 @@
                         Here's what I've learned through 20+ years of work, play, research and obsession with passwords & anything digital authentication. 
                         Bad jokes, free advice & a tough warning comes as part of the talk.
                     </p>
-                    <p onclick="expand('#s5')">
+                    <p onclick="expand('#s5')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -242,12 +225,12 @@
                     <h2 class="clock mt-4">14:00</h2>
                 </div>
                 <div class="col-md-8">
-                    <h2 class="mb-4 mt-4">???????</h2>
+                    <h2 class="mb-4 mt-4">Why not Red team?</h2>
                     <p class="person"><a href="#lysen">Even Lysen</a></p>
                     <p class="half-fade" id="s6">
-                        ??????????????????
+                        The most severe cyberattacks today originate from sources already inside your network. Compromised accounts belonging to employees being the most common vector. The way attackers go about to obtain these accounts usually involve some form of social engineering or physical attacks, yet these are the vectors companies scope away when they order security tests. Join me by the campfire and hear why you should get a full-on redteam to test your security and why this can be fun for everyone. 
                     </p>
-                    <p onclick="expand('#s6')">
+                    <p onclick="expand('#s6')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -258,12 +241,12 @@
                     <h2 class="clock mt-4">14:30</h2>
                 </div>
                 <div class="col-md-8">
-                    <h2 class="mb-4 mt-4">????????????</h2>
+                    <h2 class="mb-4 mt-4">Applied Machine Learning in Visma Product Security</h2>
                     <p class="person"><a href="#saied">Alan Saied</a></p>
                     <p class="half-fade" id="s7">
-                        ??????????????????
+                        In this presentation Alan briefly goes through the use of Machine Learning in Product Security. He highlights some projects, tasks and experiments that Machine Learning is used for in the context of anomaly detection, analysis and computer forensics. 
                     </p>
-                    <p onclick="expand('#s7')">
+                    <p onclick="expand('#s7')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -279,7 +262,7 @@
                     <p class="half-fade" id="s8">
                         ???????????????
                     </p>
-                    <p onclick="expand('#s8')">
+                    <p onclick="expand('#s8')" class="readmore">
                         Read more
                     </p>
                 </div>
@@ -289,95 +272,18 @@
 
     <section>
         <div class="container speakers">
-            <h1 class="text-center mb-5 pt-5">Hosts</h1>
-            <div class="row justify-content-md-center text-center">
-                <div class="col-md-4">
-                    <div class="mb-4">
-                        <img src="Frame.png" alt="person" class="img-fluid profile">
-                        <div class="text-center">
-                            <p class="person mb-1 mt-2">Isabel Arvik</p>
-                            <p class="text-muted mb-0">Security Communication Manager - Visma</p>
-                            <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>-->
-                            <a href="https://no.linkedin.com/in/isabel-arkvik-quiroga-6a895153" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mb-4">
-                        <img src="Frame.png" alt="person" class="img-fluid profile">
-                        <div class="text-center">
-                            <p class="person mb-1 mt-2">Helle Hobbelhagen</p>
-                            <p class="text-muted mb-0"> - Security Marketing Coordinator</p>
-                            <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>-->
-                            <a href="https://in.linkedin.com/pub/helle-hobbelhagen/43/178/9b9" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-md-center text-center">
-                <div class="col-md-4">
-                    <div class="mb-4">
-                        <img src="speakers/olsson-frame.png" alt="person" class="img-fluid profile">
-                        <div class="text-center">
-                            <p class="person mb-1 mt-2">Per Olsson</p>
-                            <p class="text-muted mb-0">Application Security Engineer - Visma</p>
-                            <a href="https://twitter.com/repolsson" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/perolsson1/" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <h1 class="text-center mb-5 mt-5 pt-5">Speakers</h1>
-
-        <!--
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card speaker-bio">
-                        <img src="speakers/st" class="card-img-top" alt="laura">
-                        <div class="card-body">
-                            <p class="person">Laura Kankaala, whitehat hacker</p>
-                           
-                            <p class="card-text text-muted">Privacy has become a buzzword for companies and enterprises. But privacy is much more personal - and sometimes compromises in privacy can leave deep psychological wounds, such as when a spouse or a relative has total control over our digital lives. In this talk, Laura talks about modern privacy of normal human beings, and how issues such as stalking take a whole new form in the digital spaces.</p>
-                            <a href="#"><i class="social fab fa-twitter"></i></a>
-                            <a href="#"><i class="social fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card speaker-bio">
-                        <img src="speakers/laura.png" class="card-img-top" alt="laura">
-                        <div class="card-body">
-                            <p class="person">Laura Kankaala, whitehat hacker</p>
-                           
-                            <p class="card-text text-muted">Privacy has become a buzzword for companies and enterprises. But privacy is much more personal - and sometimes compromises in privacy can leave deep psychological wounds, such as when a spouse or a relative has total control over our digital lives. In this talk, Laura talks about modern privacy of normal human beings, and how issues such as stalking take a whole new form in the digital spaces.</p>
-                            <a href="#"><i class="social fab fa-twitter"></i></a>
-                            <a href="#"><i class="social fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card speaker-bio">
-                        <img src="speakers/laura.png" class="card-img-top" alt="laura">
-                        <div class="card-body">
-                            <p class="person">Laura Kankaala, whitehat hacker</p>
-                            
-                            <p class="card-text text-muted">Privacy has become a buzzword for companies and enterprises. But privacy is much more personal - and sometimes compromises in privacy can leave deep psychological wounds, such as when a spouse or a relative has total control over our digital lives. In this talk, Laura talks about modern privacy of normal human beings, and how issues such as stalking take a whole new form in the digital spaces.</p>
-                            <a href="#"><i class="social fab fa-twitter"></i></a>
-                            <a href="#"><i class="social fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        -->
+            <h1 class="text-center mb-5 mt-5 pt-5" id="speakers">Speakers</h1>
 
             <br><br>
 
-            <div class="row text-center">
+            <div class="row text-center mb-3">
                 <div class="col-md-3">
                     <div class="mb-4" id="alexandersson">
-                        <img src="speakers/stok-frame.png" alt="STÖK" class="img-fluid profile">
+                        <img src="speakers/stok-bw-frame.png" 
+                        onmouseover="this.src='speakers/stok-frame.png'"
+                        onmouseout="this.src='speakers/stok-bw-frame.png'" 
+                        alt="STÖK" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Fredrik "STÖK" Alexandersson</p>
                             <p class="text-muted mb-0">Cyber Security Advisor - BLKNRTH Security AB</p>
@@ -388,7 +294,10 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mb-4" id="oberg">
-                        <img src="speakers/oberg-frame.png" alt="Martin Öberg" class="img-fluid profile">
+                        <img src="speakers/oberg-bw-frame.png"
+                        onmouseover="this.src='speakers/oberg-frame.png'"
+                        onmouseout="this.src='speakers/oberg-bw-frame.png'" 
+                        alt="Martin Öberg" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Martin Öberg</p>
                             <p class="text-muted mb-0">Head of the Product Security Operations Center - Visma</p>
@@ -399,7 +308,10 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mb-4" id="kankaala">
-                        <img src="speakers/kankaala-frame.png" alt="Laura Kankaala" class="img-fluid profile">
+                        <img src="speakers/kankaala-bw-frame.png" 
+                        onmouseover="this.src='speakers/kankaala-frame.png'"
+                        onmouseout="this.src='speakers/kankaala-bw-frame.png'" 
+                        alt="Laura Kankaala" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Laura Kankaala</p>
                             <p class="text-muted mb-0">Whitehat hacker</p>
@@ -410,7 +322,10 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mb-4" id="piroska">
-                        <img src="speakers/piroska-frame.png" alt="Ioana Piroska" class="img-fluid profile">
+                        <img src="speakers/piroska-bw-frame.png" 
+                        onmouseover="this.src='speakers/piroska-frame.png'"
+                        onmouseout="this.src='speakers/piroska-bw-frame.png'" 
+                        alt="Ioana Piroska" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Ioana Piroska</p>
                             <p class="text-muted mb-0">Security Analyst - Visma</p>
@@ -424,7 +339,10 @@
             <div class="row text-center">
                 <div class="col-md-3">
                     <div class="mb-4" id="thorsheim">
-                        <img src="speakers/thorsheim-frame.png" alt="Per Thorsheim" class="img-fluid profile">
+                        <img src="speakers/thorsheim-bw-frame.png" 
+                        onmouseover="this.src='speakers/thorsheim-frame.png'"
+                        onmouseout="this.src='speakers/thorsheim-bw-frame.png'" 
+                        alt="Per Thorsheim" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Per Thorsheim</p>
                             <p class="text-muted mb-0">Security Evangelist - Secure Practice AS</p>
@@ -435,10 +353,13 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mb-4" id="lysen">
-                        <img src="speakers/lysen-frame.png" alt="Even Lysen" class="img-fluid profile">
+                        <img src="speakers/lysen-bw-frame.png" 
+                        onmouseover="this.src='speakers/lysen-frame.png'"
+                        onmouseout="this.src='speakers/lysen-bw-frame.png'" 
+                        alt="Even Lysen" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Even Lysen</p>
-                            <p class="text-muted mb-0">??? - Visma</p>
+                            <p class="text-muted mb-0">Security Consultant - Visma</p>
                             <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>-->
                             <a href="https://no.linkedin.com/in/even-lysen-028609192" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
                         </div>
@@ -446,7 +367,10 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mb-4" id="saied">
-                        <img src="speakers/saied-frame.png" alt="Alan Saied" class="img-fluid profile">
+                        <img src="speakers/saied-bw-frame.png" 
+                        onmouseover="this.src='speakers/saied-frame.png'"
+                        onmouseout="this.src='speakers/saied-bw-frame.png'" 
+                        alt="Alan Saied" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Alan Saied</p>
                             <p class="text-muted mb-0">Machine Learning and Security Architect - Visma</p>
@@ -459,7 +383,10 @@
                 </div>
                 <div class="col-md-3">
                     <div class="mb-4" id="ingelsson">
-                        <img src="speakers/ingelsson-frame.png" alt="Ole-William Ingelsson" class="img-fluid profile">
+                        <img src="speakers/ingelsson-bw-frame.png" 
+                        onmouseover="this.src='speakers/ingelsson-frame.png'"
+                        onmouseout="this.src='speakers/ingelsson-bw-frame.png'" 
+                        alt="Ole-William Ingelsson" class="img-fluid profile">
                         <div class="">
                             <p class="person mb-1 mt-2">Ole-William Ingelsson</p>
                             <p class="text-muted mb-0">Chief Information Security Officer - Visma</p>
@@ -469,6 +396,86 @@
                     </div>
                 </div>
             </div>
+            
+            <h1 class="text-center mb-5 pt-5">Hosts & organizers</h1>
+            <div class="row justify-content-md-center text-center mb-3">
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <img src="speakers/arkvik-bw-frame.png" 
+                        onmouseover="this.src='speakers/arkvik-frame.png'"
+                        onmouseout="this.src='speakers/arkvik-bw-frame.png'" 
+                        alt="Isabel Arvik" class="img-fluid profile">
+                        <div class="text-center">
+                            <p class="person mb-1 mt-2">Isabel Arvik</p>
+                            <p class="text-muted mb-0">Security Communication Manager - Visma</p>
+                            <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>-->
+                            <a href="https://no.linkedin.com/in/isabel-arkvik-quiroga-6a895153" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <img src="speakers/hobbelhagen-bw-frame.png" 
+                        onmouseover="this.src='speakers/hobbelhagen-frame.png'"
+                        onmouseout="this.src='speakers/hobbelhagen-bw-frame.png'" 
+                        alt="Helle Hobbelhagen" class="img-fluid profile">
+                        <div class="text-center">
+                            <p class="person mb-1 mt-2">Helle Hobbelhagen</p>
+                            <p class="text-muted mb-0">Security Marketing Coordinator - Visma</p>
+                            <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>-->
+                            <a href="https://in.linkedin.com/pub/helle-hobbelhagen/43/178/9b9" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <img src="speakers/olsson-bw-frame.png" 
+                        onmouseover="this.src='speakers/olsson-frame.png'"
+                        onmouseout="this.src='speakers/olsson-bw-frame.png'" 
+                        alt="Per Olsson" class="img-fluid profile">
+                        <div class="text-center">
+                            <p class="person mb-1 mt-2">Per Olsson</p>
+                            <p class="text-muted mb-0">Application Security Engineer - Visma</p>
+                            <a href="https://twitter.com/repolsson" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/perolsson1/" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center text-center">
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <img src="speakers/tauren-bw-frame.png" 
+                        onmouseover="this.src='speakers/tauren-frame.png'"
+                        onmouseout="this.src='speakers/tauren-bw-frame.png'" 
+                        alt="Joakim Tauren" class="img-fluid profile">
+                        <div class="text-center">
+                            <p class="person mb-1 mt-2">Joakim Tauren</p>
+                            <p class="text-muted mb-0">Application Security Architect - Visma</p>
+                            <a href="https://twitter.com/joakimtauren" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>
+                            <a href="https://fi.linkedin.com/in/jtauren" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <img src="speakers/hoikkala-bw-frame.png" 
+                        onmouseover="this.src='speakers/hoikkala-frame.png'"
+                        onmouseout="this.src='speakers/hoikkala-bw-frame.png'" 
+                        alt="Joona Hoikkala" class="img-fluid profile">
+                        <div class="text-center">
+                            <p class="person mb-1 mt-2">Joona Hoikkala</p>
+                            <p class="text-muted mb-0">Joona  Security Engineer - Visma</p>
+                            <a href="https://twitter.com/joohoi" target="_blank" rel="noopener noreferrer"><i class="social fab fa-twitter"></i></a>
+                            <!--<a href="#" target="_blank" rel="noopener noreferrer"><i class="social fab fa-linkedin"></i></a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </section>
 
@@ -477,23 +484,50 @@
             <div class="card">
                 <div class="card-body" id="attend">
                     <h1 class="card-title text-center mb-5">Attend</h1>
-                    <p class="card-text thin">Actually we don't want your email and we don't want to track you.</p>
+
+                    <p class="card-text thin text-center">Actually we don't want your email and we don't want to track you.</p>
+
+                    <p class="text-center">Add to your calendar</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="float-left ml-5">
+                                <a class="yellow" href="https://www.google.com/calendar/render?action=TEMPLATE&sf=true&output=xml&text=Visma%20SecCon%20-%20Staying%20secure%20in%20the%20pandemic&location=https://youtu.be/vvvdLDpjvmE&details=Visma%E2%80%99s%20yearly%20Security%20Conference%20intended%20for%20our%20customers%20and%20our%20employees.%20The%20purpose%20of%20the%20conference%20is%20to%20bring%20together%20eminent%20experts%20in%20the%20cyber%20security%20field,%20both%20from%20Visma%20and%20externally%20in%20order%20to%20increase%20the%20focus%20and%20awareness%20on%20security,%20a%20field%20in%20constant%20development.%20&dates=20201111T100000Z/20201111T143000Z" target="_blank" rel="noopener noreferrer">
+                                    <i class="far fa-calendar-alt"></i> Google Calendar
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="float-right mr-5">
+                                <a class="yellow" href="Visma_SecCon__Staying_secure_in_the_pandemic.ics" target="_blank" rel="noopener noreferrer">
+                                    <i class="far fa-calendar-alt"></i> iCal (Outlook/Apple)
+                                </a>
+                            </p>   
+                        </div>
+                      </div>                   
+
+       
+                    <h3 class="text-center separator">or</h3>
                     <br>
-                    <p class="card-text thin">To automatically .....</p>
-                    <p class="card-text thin"></p>
 
-                    <p class="card-text">If you have any questions you can contact us at email@visma.com</p>
 
-                    <div class="form-group">
-                        <input type="text" class="form-control form-control-lg" placeholder="Full name*">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control form-control-lg" placeholder="Email*">
-                    </div>
+                    <p class="card-text text-center">Get a reminder on Youtube (logged in):</p>
+                    <p class="card-text thin text-center">Click <img src="set-reminder.png" alt="Set Youtube Reminder"> to get notified (app/email) when the event starts!</p>
 
-                    <div class="text-center">
-                        <a href="#" class="btn btn-primary mt-4">Sign up now</a>
-                    </div>
+
+                    <br>
+                    <h3 class="text-center separator">or</h3>
+                    <br>
+
+
+                    <p class="card-text text-center">Join now (on November 11 @ 11:00 CET):</p>
+                    <h2 class="text-center"><a href="#" class="yellow">https://youtu.be/vvvdLDpjvmE</a></h2>
+
+                    <br><br>      
+
+                    <h3 class="text-center">
+                        See you there! Until then, stay safe, stay secure! <i class="fas fa-shield-alt"></i>
+                    </h3>
                 </div>
             </div>
         </div>
