@@ -24,13 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20201016T122228Z
-UID:20201016T122228Z-371397590@marudot.com
+DTSTAMP:20201016T125814Z
+UID:20201016T125814Z-1930826327@marudot.com
 DTSTART;TZID=Europe/Berlin:20201111T110000
 DTEND;TZID=Europe/Berlin:20201111T153000
 SUMMARY:Visma SecCon - Staying secure in the pandemic
 URL:https%3A%2F%2Fyoutu.be%2FvvvdLDpjvmE
-DESCRIPTION:Visma’s yearly Security Conference intended for our customers and our employees. The purpose of the conference is to bring together eminent experts in the cyber security field\, both from Visma and externally in order to increase the focus and awareness on security\, a field in constant development. 
+DESCRIPTION:11:00 Intro and welcome by the hosts & Cyber Threat landscape\n11:30 Attack yourself – Secure yourself\n12:00 Who Did It? A Game of Attribution\n12:30 Who follows you?\n13:00 Working with Hackers\n13:30 Passwords are forever!\n14:00 Why not Red team?\n14:30 Applied Machine Learning in Visma Product Security\n15:00 Disaster Averted!
 LOCATION:https://youtu.be/vvvdLDpjvmE
 BEGIN:VALARM
 ACTION:DISPLAY
